@@ -388,6 +388,16 @@ footer > div > section:first-of-type {
   margin-bottom: 1rem;
 }
 
+footer > div{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      padding-bottom: 1rem;
+      max-width: 700px;
+      margin: 0 auto;
+      column-gap: 1rem;
+      grid-template-areas: "social location";
+    }
 }
 
 /* -----------------------LARGE SCREEN STYLES-------------------- */
