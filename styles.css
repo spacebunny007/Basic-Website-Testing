@@ -250,6 +250,26 @@ header img{
   margin: 0 auto;
 }
 
+#socialMedia ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .75rem;
+  padding: .5rem 0;
+}
+
+#socialMedia li {
+   display: inline-flex; 
+  }
+  
+#socialMedia img {
+  width: 64px;
+  height: auto;
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+
 .mobile{
   display: block;
   margin: 0.35rem 0;
