@@ -270,6 +270,23 @@ header img{
   margin: 0;
 }
 
+footer > div {
+  display: grid;
+  row-gap: 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  grid-template-areas:
+    "social"
+    "location";
+}
+
+#socialMedia { grid-area: social; 
+}
+footer > div > section:first-of-type { 
+  grid-area: location; 
+}
+
 .mobile{
   display: block;
   margin: 0.35rem 0;
